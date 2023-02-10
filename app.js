@@ -22,7 +22,6 @@ router.get('/allfriends' , async (req , res) => {
     for(let i of allfriends) 
         funProp.push(data_api.bind(null , i));
     asyncc.parallel(funProp).then(result => {allfriendsData = result ; res.json(result)});
-    // res.json(allfriendsData);
 });
 router.get('/data_api/:name' , async (req , res)=> {
     if(allfriendsData == undefined){
