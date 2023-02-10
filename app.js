@@ -14,7 +14,7 @@ router.use('/friends/:name' , express.static(`${static}`+'/friends'));
 router.use(express.static(`${static}`+'/mainpage'));
 
 let allfriendsData;
-let allfriends = ['vinit_jha' , 'jha-shubham19' ,'kamalyadav01', 'brijesh_09'];
+let allfriends;
 router.get('/allfriends' , async (req , res) => {
     allfriends = req.query.usernames.split(';');
 
