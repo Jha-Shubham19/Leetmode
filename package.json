@@ -1,0 +1,16 @@
+{
+  "name": "leetmod",
+  "version": "1.0.0",
+  "description": "See your and your friends leetcode progress",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jha-Shubham19",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.4",
+    "express": "^4.18.2",
+    "puppeteer": "^19.4.0"
+  }
+}

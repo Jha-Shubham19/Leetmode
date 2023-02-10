@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mpstyle.css">
+    
+</head>
+<body>
+    <nav class="navMain">
+        <div class="navTitle">
+            <h3>Leetmode</h3>
+        </div>
+        <input type="checkbox" id="checkHamb">
+        <label for="checkHamb" class="hambContainer">
+            <div class="hambChild"></div>
+        </label>
+        <div class="navComponents">
+            <a href="#">Home</a>
+            <a href="#">Friends</a>
+            <a href="#">Sign-Out</a>
+        </div>
+    </nav>
+
+    <div class="overlay"></div>
+    <main>
+        <section class="watchlist-container">
+            <input type="checkbox" name="add-mem" id="add-mem">
+            <h2>Watchlist <label for="add-mem">&#43;</label></h2>
+            <form class="add-user">
+                <input type="text" name="username-name" id="username" placeholder="Username" required>
+                <input type="text" name="display-name" id="display-name" placeholder="Display Name">
+                <input type="submit" value="Add" id="add">
+                <!-- <input type="button" value="Remove" id="remove"> -->
+                <label for="remove">Remove</label>
+                <input type="checkbox" name="remove" id="remove">
+            </form>
+        </section>
+        <section class="friends-list">
+            <div class="frnd-container">
+                <div class="frnd">
+                    <a href="friends/vinit_jha" class="frnd-name">Vinit Jha</a>
+                    <span>10<small>+2</small></span>
+                    <span>10<small>+2</small></span>
+                    <span>10<small>+2</small></span>
+                </div>
+                <div class="frnd-points-container">
+                    <span>Points : <span>100</span></span>
+                </div>
+            </div>
+            <div class="frnd-container">
+                <div class="frnd">
+                    <a href="friends/jha-shubham19" class="frnd-name">Shubham jha</a>
+                    <span>10<small>+2</small></span>
+                    <span>10<small>+2</small></span>
+                    <span>10<small>+2</small></span>
+                </div>
+                <div class="frnd-points-container">
+                    <span>Points : <span>100</span></span>
+                </div>
+            </div>
+            <div class="frnd-container">
+                <div class="frnd">
+                    <a href="friends/kamalyadav01" class="frnd-name">Kamal Yadav</a>
+                    <span>10<small>+2</small></span>
+                    <span>10<small>+2</small></span>
+                    <span>10<small>+2</small></span>
+                </div>
+                <div class="frnd-points-container">
+                    <span>Points : <span>100</span></span>
+                </div>
+            </div>
+            <div class="frnd-container">
+                <div class="frnd">
+                    <a href="friends/brijesh_09" class="frnd-name">Brijesh</a>
+                    <span>10<small>+2</small></span>
+                    <span>10<small>+2</small></span>
+                    <span>10<small>+2</small></span>
+                </div>
+                <div class="frnd-points-container">
+                    <span>Points : <span>100</span></span>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script type="module" src="mpscript.js"></script>
+</body>
+</html>
